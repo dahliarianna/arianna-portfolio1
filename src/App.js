@@ -270,7 +270,7 @@ function App() {
             ></img>
             <div className="projectDesc">
               <a
-                href="https://dahliarianna.github.io/tat-ramen/"
+                href="https://dahliarianna.github.io/book-portfolio/"
                 target="blank"
               >
                 Book Portfolio
