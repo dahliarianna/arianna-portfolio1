@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import "./App.css";
 import all from "./assets/all.jpg";
-import lavang from "./assets/lavangphoto.JPEG";
+import lavang from "./assets/lavangphoto.png";
 import serenedemo from "./assets/signupdemo.gif";
 import tat from "./assets/tat.png";
 import tat2 from "./assets/tat.gif";
@@ -10,7 +10,7 @@ import cnctn from "./assets/cnctn.png";
 import cnctn2 from "./assets/cnctn.gif";
 import book from "./assets/book.png";
 import book2 from "./assets/book.gif";
-import profile from "./assets/profile.JPEG";
+import profile from "./assets/profile.png";
 
 function App() {
   const [switchSide, setSwitchSide] = useState(false);
