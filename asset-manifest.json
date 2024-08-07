@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2fd9f980.css",
-    "main.js": "/static/js/main.61b3e8bc.js",
-    "static/media/tat.gif": "/static/media/tat.1ce97968cc29c3e9a048.gif",
-    "static/media/all.jpg": "/static/media/all.5303e7904761541488f3.jpg",
-    "static/media/tat.png": "/static/media/tat.19d5e739a50951746f80.png",
-    "static/media/cnctn.png": "/static/media/cnctn.184a7e2c45d12fd422e4.png",
-    "static/media/book.gif": "/static/media/book.c97c2d7e742d80a9a359.gif",
-    "static/media/cnctn.gif": "/static/media/cnctn.eda1922d240b4e527705.gif",
-    "static/media/signupdemo.gif": "/static/media/signupdemo.30a842cc2865b88230ec.gif",
-    "static/media/book.png": "/static/media/book.e0cb001837e2e8dc1638.png",
-    "static/media/lavangphoto.jpeg": "/static/media/lavangphoto.e9f2d57ee1d029a829e4.jpeg",
-    "static/media/profile.jpeg": "/static/media/profile.cc935d3b653b7ee82885.jpeg",
-    "index.html": "/index.html",
-    "main.2fd9f980.css.map": "/static/css/main.2fd9f980.css.map",
-    "main.61b3e8bc.js.map": "/static/js/main.61b3e8bc.js.map"
+    "main.css": "/arianna-portfolio1/static/css/main.2fd9f980.css",
+    "main.js": "/arianna-portfolio1/static/js/main.3ab8db59.js",
+    "static/media/tat.gif": "/arianna-portfolio1/static/media/tat.1ce97968cc29c3e9a048.gif",
+    "static/media/all.jpg": "/arianna-portfolio1/static/media/all.5303e7904761541488f3.jpg",
+    "static/media/tat.png": "/arianna-portfolio1/static/media/tat.19d5e739a50951746f80.png",
+    "static/media/cnctn.png": "/arianna-portfolio1/static/media/cnctn.184a7e2c45d12fd422e4.png",
+    "static/media/book.gif": "/arianna-portfolio1/static/media/book.c97c2d7e742d80a9a359.gif",
+    "static/media/cnctn.gif": "/arianna-portfolio1/static/media/cnctn.eda1922d240b4e527705.gif",
+    "static/media/signupdemo.gif": "/arianna-portfolio1/static/media/signupdemo.30a842cc2865b88230ec.gif",
+    "static/media/book.png": "/arianna-portfolio1/static/media/book.e0cb001837e2e8dc1638.png",
+    "static/media/lavangphoto.jpeg": "/arianna-portfolio1/static/media/lavangphoto.e9f2d57ee1d029a829e4.jpeg",
+    "static/media/profile.jpeg": "/arianna-portfolio1/static/media/profile.cc935d3b653b7ee82885.jpeg",
+    "index.html": "/arianna-portfolio1/index.html",
+    "main.2fd9f980.css.map": "/arianna-portfolio1/static/css/main.2fd9f980.css.map",
+    "main.3ab8db59.js.map": "/arianna-portfolio1/static/js/main.3ab8db59.js.map"
   },
   "entrypoints": [
     "static/css/main.2fd9f980.css",
-    "static/js/main.61b3e8bc.js"
+    "static/js/main.3ab8db59.js"
   ]
 }
