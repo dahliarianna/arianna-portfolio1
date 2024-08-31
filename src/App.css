@@ -378,7 +378,6 @@ h1 {
     font-size: 5vw;
   }
   .timeline{
-    height: 200vh;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -408,7 +407,7 @@ h1 {
   
   }
   .timelineRight div{
-    height: 20rem;
+    height: 28rem;
     width: 100%;
     position: relative;
   }
