@@ -118,9 +118,9 @@ function App() {
           <h1> C O N T A C T</h1>
           {console.log(`contact is in view, ${contactView}`)}
           <p>
-            I'm currently not seeking for new opportunties, but if you have any
-            questions or simply want to connect, please feel free to reach out
-            to me via:
+            I'm currently not exploring new opportunities, but if you have any
+            questions or simply just want to connect, please feel free to reach
+            me via:
           </p>
           <div className="socials">
             <p>dahliarianna@gmail.com</p>
