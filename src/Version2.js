@@ -2,19 +2,18 @@ import React, { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import "./AppV2.css";
 import profile from "./assets/profile.png";
-import birthday from "./assets/birthday.JPG";
-import art8 from "./assets/art8.JPG";
-import butterfly from "./assets/butterfly.JPG";
-import mushroom from "./assets/mushroom.JPG";
-import ramen from "./assets/ramen.JPG";
-import field from "./assets/field.JPG";
-import sink from "./assets/sink.JPG";
+import birthday from "./assets/birthday.jpg";
+import art8 from "./assets/art8.jpg";
+import butterfly from "./assets/butterfly.jpg";
+import mushroom from "./assets/mushroom.jpg";
+import ramen from "./assets/ramen.jpg";
+import field from "./assets/field.jpg";
+import sink from "./assets/sink.jpg";
 import mockingjay from "./assets/mockingjay.jpg";
 import sunset from "./assets/sunset.jpg";
 import allwatercolor from "./assets/allwatercolor.jpg";
-import IMG_0395 from "./assets/IMG_0395.JPG";
 import FixedHeader from "./FixedHeader";
-
+import paintingprogress from "./assets/paintingprogress.jpg";
 function App() {
   const [switchSide, setSwitchSide] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
@@ -132,7 +131,7 @@ function App() {
         <div className="showcase">
           <div>
             <h3>w a t e r c o l o r</h3>
-            <img id="paintingProgress" src={IMG_0395} alt="arts" />
+            <img id="paintingProgress" src={paintingprogress} alt="arts" />
           </div>
           <div className="waterColor">
             <img src={mockingjay} alt="arts" />
