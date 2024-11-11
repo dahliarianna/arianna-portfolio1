@@ -1,7 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import "./App.css";
+import "./AppV2.css";
 import profile from "./assets/profile.png";
+import birthday from "./assets/birthday.JPG";
+import art8 from "./assets/art8.JPG";
+import butterfly from "./assets/butterfly.JPG";
+import mushroom from "./assets/mushroom.JPG";
+import ramen from "./assets/ramen.JPG";
+import field from "./assets/field.JPG";
+import sink from "./assets/sink.JPG";
+import mockingjay from "./assets/mockingjay.jpg";
+import sunset from "./assets/sunset.jpg";
+import allwatercolor from "./assets/allwatercolor.jpg";
+import IMG_0395 from "./assets/IMG_0395.JPG";
+import FixedHeader from "./FixedHeader";
 
 function App() {
   const [switchSide, setSwitchSide] = useState(false);
@@ -82,51 +94,97 @@ function App() {
     <div className="App">
       <div className="landing" ref={ref2}>
         <div className="header" id="landing">
-          <a
-            className={`mainLogo ${switchSide ? "fixed" : ""}`}
-            href="#landing"
-          >
+          <h3 className={`mainLogo ${switchSide ? "fixed" : ""}`}>
             A R I A N N A
-          </a>
+          </h3>
         </div>
 
         <div className="landingIntro">
-          A passionate software engineer with expertise in full-stack JavaScript
-          development, skillfully blending art and code to create beautiful &
-          functional applications.
+          tl;dr - software engineer with a love for arts, blending creativity
+          with technical expertise to build solutions that resonate both
+          visually and functionally.
         </div>
       </div>
       <div className="body" ref={ref1}>
         {console.log(`body inside viewport ${inView1}.`)}
-        <div className="about" id="about" ref={aboutRef}>
+
+        {switchSide && <FixedHeader />}
+        <div className="aboutV2" id="about" ref={aboutRef}>
           <h1>A B O U T</h1>
           <p>
             {" "}
-            I'm Arianna, a full stack software engineer located in Houston, TX,
-            specializing in React and Node. Before programming, I have always
-            found my creative side in traditional arts such as painting and
-            drawing, but little did I know that transitioning into coding would
-            be an extension of that creativity. I realized that behind every
-            line of code lies an opportunity for artistic expression — a chance
-            to combine my creative thinking with logical problem-solving skills
-            to create something not just visually appealing, but also practical
-            and functional.
+            My creative journey began with traditional arts like painting and
+            drawing, where I found passion in visually expressing emotions and
+            ideas. It wasn’t until later that I discovered programming could
+            become an extension of that creativity. Now, as a software engineer,
+            I see each line of code as an opportunity to combine creativity with
+            analytical thinking, creating solutions that are both aesthetically
+            appealing and purposefully designed to make an impact.
           </p>
+          <p>
+            The purpose of this website is to showcase some of the work I've
+            done over the years, reflecting my journey and growth as a creative
+            individual. My goal is to invite viewers into an experience that
+            transcends mediums, revealing how creativity can be expressed in
+            different ways and forms.
+          </p>
+        </div>
+        <div className="showcase">
+          <div>
+            <h3>w a t e r c o l o r</h3>
+            <img id="paintingProgress" src={IMG_0395} alt="arts" />
+          </div>
+          <div className="waterColor">
+            <img src={mockingjay} alt="arts" />
+            <img src={allwatercolor} alt="arts" />
+            <img src={butterfly} alt="arts" />
+          </div>
+
+          <div className="waterColor2">
+            <img src={field} alt="arts" />
+            <h3>a c r y l i c - p a i n t </h3>
+            <img src={sunset} alt="arts" />
+          </div>
+
+          <div className="artImage2">
+            <img src={ramen} alt="arts" />
+
+            <div className="digitalDescription">
+              <h3>d i g i t a l </h3>
+              <p>
+                The shift from paintbrush and canvas to digital drawing was
+                challenging, mainly due to the rigid, unyielding surface of the
+                iPad screen. Unlike the textured feel of paper or canvas, the
+                smoothness of the glass makes each stroke feel different, and
+                the sensation of the pencil gliding, almost scratching, across
+                it is something I had to get used to. Yet, muscle memory kicks
+                in, and my hand instinctively knows how to move, letting me
+                recreate the flow and style of my traditional art. Though it’s
+                an adjustment, each line becomes more familiar, blending old
+                techniques with new tools.
+              </p>
+            </div>
+          </div>
+          <div className="artImage">
+            <img src={birthday} alt="arts" />
+            <img src={art8} alt="arts" />
+          </div>
+          <div className="artImage">
+            <img src={sink} alt="arts" />
+            <img src={mushroom} alt="arts" />
+          </div>
         </div>
 
         <div className="contacts" id="contacts" ref={contactRef}>
           <h1> C O N T A C T</h1>
           {console.log(`contact is in view, ${contactView}`)}
           <p>
-            I'm currently not exploring new opportunities, but if you have any
-            questions or simply just want to connect, please feel free to reach
-            me via:
+            I'm currently not open to new opportunities, but if you have any
+            questions or would like to connect, please don’t hesitate to reach
+            out to me at:
           </p>
           <div className="socials">
             <p>dahliarianna@gmail.com</p>
-            <a href="https://www.linkedin.com/in/ariannanguyen/" target="blank">
-              linkedin
-            </a>
           </div>
           <img src={profile} alt="profile" />
         </div>

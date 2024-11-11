@@ -3,6 +3,7 @@ html {
 }
 .App {
   text-align: center;
+  overflow-x: hidden;
   background-color: rgb(14, 14, 14);
   height: 100vh;
   width: 100vw;
@@ -24,6 +25,8 @@ html {
   align-items: center;
   width: 100%;
   color: rgb(12, 12, 12);
+  padding: none;
+  z-index: 6;
 }
 .fixedHeader {
   width: 100vw;
@@ -31,6 +34,7 @@ html {
   position: fixed;
   top: 0;
   background-color: rgb(14, 14, 14);
+  z-index: 5;
 }
 .landingNav {
   display: flex;
@@ -76,9 +80,10 @@ html {
 }
 .mainLogo {
   color: rgb(12, 12, 12);
-  font-size: 12vw;
+  font-size: 10vw;
   font-weight: 900;
   transition: transform 0.5s ease, position 0.5s ease;
+  padding: 0;
   /* transition: font-size 0.8s ease */
 }
 
@@ -86,7 +91,7 @@ html {
   position: fixed;
   top: 20px;
   left: 20px;
-  transform: translateX(0%) translateY(30%);
+  transform: translateX(0%) translateY(-50%);
   font-size: 2vw;
   z-index: 1;
   color: rgb(240, 240, 240);
@@ -128,6 +133,12 @@ html {
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
+.aboutV2 p {
+  font-size: 1.5rem;
+}
+.aboutV2 h1 {
+  font-size: 2rem;
+}
 .moveToSide #aboutUnderline,
 #experienceUnderline,
 #projectUnderline,
@@ -135,6 +146,76 @@ html {
   color: white;
   text-decoration: underline;
   text-underline-offset: 10px;
+}
+.showcase {
+  display: flex;
+  flex-direction: column;
+}
+#paintingProgress {
+  width: 100%;
+  filter: grayscale(100%);
+}
+#paintingProgress:hover {
+  filter: grayscale(0%);
+}
+.artImage {
+  display: flex;
+  margin-top: 1rem;
+}
+.artImage img {
+  width: 50%;
+}
+.artImage2 {
+  display: flex;
+  margin-top: 1rem;
+}
+.artImage2 img {
+  width: 50%;
+}
+.digitalDescription {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.waterColor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30rem;
+}
+.waterColor img {
+  height: 20rem;
+  width: 20rem;
+  object-fit: cover;
+  filter: grayscale(100%);
+  margin: 0.5rem;
+}
+.waterColor img:hover {
+  filter: grayscale(0%);
+}
+.waterColor2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 45rem;
+  margin-bottom: 1rem;
+}
+.waterColor2 img {
+  height: 100%;
+  width: 40%;
+  object-fit: cover;
+  filter: grayscale(100%);
+  margin: 0.5rem;
+}
+.waterColor2 img:hover {
+  filter: grayscale(0%);
 }
 /* .aboutUnderline, 
 .experienceUnderline,
@@ -324,12 +405,12 @@ h1 {
   align-items: center;
 }
 .socials p,
-a {
+/* a {
   margin: 0 30px 10px 0;
   color: rgb(240, 240, 240);
   text-decoration: none;
   font-weight: 700;
-}
+} */
 #patent {
   text-align: center;
   font-size: 1vw;

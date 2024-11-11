@@ -90,8 +90,11 @@ function App() {
   return (
     <div className="App">
       <div className="landing" ref={ref2}>
-        <div className="header" id='landing'>
-          <a className={`mainLogo ${switchSide ? "fixed" : ""}`} href='#landing'>
+        <div className="header" id="landing">
+          <a
+            className={`mainLogo ${switchSide ? "fixed" : ""}`}
+            href="#landing"
+          >
             A R I A N N A
           </a>
         </div>
@@ -220,8 +223,8 @@ function App() {
                 maintain meaningful connections online.
               </p>
               <p>
-                Technology Used: React, Node, AWS, PostgreSQL, HTML, CSS, JavaScript,
-                TypeScript, Socket.io
+                Technology Used: React, Node, AWS, PostgreSQL, HTML, CSS,
+                JavaScript, TypeScript, Socket.io
               </p>
             </div>
           </div>
