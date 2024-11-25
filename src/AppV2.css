@@ -173,6 +173,10 @@ html {
   width: 50%;
 }
 .digitalDescription {
+  background-image: url("./assets/grainybackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -180,6 +184,7 @@ html {
   justify-content: center;
   padding: 2rem;
 }
+
 .waterColor {
   display: flex;
   flex-direction: row;
@@ -216,6 +221,52 @@ html {
 }
 .waterColor2 img:hover {
   filter: grayscale(0%);
+}
+.programming {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+.programBody {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.programTitle {
+  display: flex;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.programDesc {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.programDesc p {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+#book {
+  width: 50%;
+}
+.programBody img {
+  width: 50%;
+  height: 100%;
+  filter: grayscale(100%);
+}
+#tat {
+  filter: grayscale(100%);
+  width: 100%;
+}
+#tat2 {
+  width: 100%;
 }
 /* .aboutUnderline, 
 .experienceUnderline,

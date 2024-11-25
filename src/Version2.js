@@ -14,6 +14,15 @@ import sunset from "./assets/sunset.jpg";
 import allwatercolor from "./assets/allwatercolor.jpg";
 import FixedHeader from "./FixedHeader";
 import paintingprogress from "./assets/paintingprogress.jpg";
+import book from "./assets/book.png";
+import book2 from "./assets/book.gif";
+import tat from "./assets/tat.png";
+import tat2 from "./assets/tat.gif";
+import cnctn from "./assets/cnctn.png";
+import cnctnlogin from "./assets/cnctnlogin.png";
+import serenelogin from "./assets/serenelogin.png";
+import cnctnsignup from "./assets/cnctnsignup.png";
+import serenesignup from "./assets/serenesignup.png";
 function App() {
   const [switchSide, setSwitchSide] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
@@ -99,7 +108,7 @@ function App() {
         </div>
 
         <div className="landingIntro">
-          tl;dr - software engineer with a love for arts, blending creativity
+          tl;dr - software developer with a love for arts, blending creativity
           with technical expertise to build solutions that resonate both
           visually and functionally.
         </div>
@@ -115,10 +124,11 @@ function App() {
             My creative journey began with traditional arts like painting and
             drawing, where I found passion in visually expressing emotions and
             ideas. It wasn’t until later that I discovered programming could
-            become an extension of that creativity. Now, as a software engineer,
-            I see each line of code as an opportunity to combine creativity with
-            analytical thinking, creating solutions that are both aesthetically
-            appealing and purposefully designed to make an impact.
+            become an extension of that creativity. Now, as a software
+            developer, I see each line of code as an opportunity to combine
+            creativity with analytical thinking, creating solutions that are
+            both aesthetically appealing and purposefully designed to make an
+            impact.
           </p>
           <p>
             The purpose of this website is to showcase some of the work I've
@@ -171,6 +181,41 @@ function App() {
           <div className="artImage">
             <img src={sink} alt="arts" />
             <img src={mushroom} alt="arts" />
+          </div>
+          <div className="programming">
+            <div className="programTitle">
+              <div className="programDesc">
+                <h3>p r o g r a m m i n g</h3>
+                <p>
+                  Through coding, I’ve been able to transform dull applications
+                  into visually appealing and intuitive user experiences.
+                  Leveraging my passion for design and creativity, I’ve created
+                  interfaces that not only captivate users but also make
+                  navigation enjoyable. Each project has been an opportunity to
+                  merge technical problem-solving with artistic expression,
+                  highlighting the impact of thoughtful and innovative
+                  development.
+                </p>
+              </div>
+
+              <img src={book2} alt="arts" id="book" />
+            </div>
+            <img
+              src={tat}
+              alt="arts"
+              id={isHovered ? "tat2" : "tat"}
+              // src={isHovered ? tat2 : tat}
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            />
+            <div className="programBody">
+              <img src={serenelogin} alt="arts" />
+              <img src={cnctnlogin} alt="arts" />
+            </div>
+            <div className="programBody">
+              <img src={cnctnsignup} alt="arts" />
+              <img src={serenesignup} alt="arts" />
+            </div>
           </div>
         </div>
 
